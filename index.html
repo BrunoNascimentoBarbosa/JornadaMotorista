@@ -8,6 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" media="all" href="css/app.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/map.css">
+    <!-- CSS do Leaflet -->
+    <!-- Maps leaflet  CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+
+
 
 </head>
 
@@ -291,10 +299,13 @@
 
                     <!-- Mapa -->
                     <div class="col-lg-4 col-12">
-                        <div class="card mb-2 p-4 p-sm-5">
-                            <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
-                                <div class="title title-color ">Mapa</div>
-                            </div>
+                        <div class="card " style="padding: 10px;">
+
+                            <!-- Mapa -->
+                            <div id="map"></div>
+
+
+
                             <div class="chart product-views-small">
                                 <div id="product-views-small"></div>
                             </div>
@@ -304,9 +315,15 @@
 
             </div>
         </div>
+
         <!-- / Mapa -->
+
     </main>
 
+
+    <script src=" https://unpkg.com/leaflet/dist/leaflet.js">
+    </script>
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
 
 
 
@@ -821,6 +838,12 @@
             </symbol>
         </svg>
     </div>
+
+    <!-- Arquivo JS -->
+    <script src=" js/script.js">
+    </script>
+
+
 </body>
 
 </html>
