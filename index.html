@@ -43,7 +43,7 @@
                         </svg>
                     </button>
                 </div>
-                <input class="form-control rounded-2" type="text" placeholder="Selecionar outro motorista"
+                <input class="form-control rounded-2" type="text" placeholder="Buscar motorista ou veículo"
                     aria-describedby="search-input">
                 <div class="input-group-text justify-content-end">
 
@@ -157,102 +157,135 @@
                     <div class="card mb-2 p-4 p-sm-5" style="height: 72px;">
                         <div class="card-head d-flex align-items-center  mb-5 mb-sm-6">
                             <img src="img/driver.png" style="width: 48px;">
-                            <p> José Fernando Silva </p>
-                            <br>
+
+                            <div class="row  p-sm-5">
+                                <strong class="driver-info-name "> José Fernando Silva
+                                </strong>
+                                <p class="driver-info" style="font-size: 15px;"> 4.8 Avaliação <svg width="18"
+                                        height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10.1438 1.38478C9.68357 0.426754 8.31643 0.426752 7.8562 1.38478L5.88778 5.48232L1.35384 6.07598C0.30271 6.21361 -0.134968 7.51245 0.647667 8.25041L3.96092 11.3746L3.12942 15.835C2.932 16.894 4.05315 17.6791 4.9794 17.1797L9 15.0122L13.0206 17.1797C13.9468 17.6791 15.068 16.894 14.8706 15.835L14.0391 11.3746L17.3523 8.25041C18.135 7.51245 17.6973 6.21361 16.6462 6.07598L12.1122 5.48232L10.1438 1.38478Z"
+                                            fill="#ECC421" />
+                                    </svg>
+                                </p>
+                            </div>
+                            <div class=" p-sm-5" style="margin-left: -160px;  font-weight: 100;">
+                                <strong class="driver-info" style="font-size: 15px;">Ativo há 8 meses </strong>
+                                <p class="driver-info" style="font-size: 15px; font-weight: 3000!important;"> 147
+                                    Viagens</p>
+                            </div>
+
+                            <div class="driver-status-activity">
+                                <strong class="tag-color green-activity-driver"
+                                    style="color:#4B4B4C; font-weight: 100!important; "> Cod
+                                    veículo</strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                                <strong class="tag-color green-activity-driver"> Motorista em
+                                    Atividade</strong> &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp
 
 
-                        </div>
-                    </div>
-                </div>
-                <!-- / Informação do Motorista -->
+                                <svg style="margin-left: 30px;" width="16" height="10" viewBox="0 0 16 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 8L8 2L2 8" stroke="#8271EE" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
 
-                <!--  Resumo da Viagem -->
-                <div class="row g-0">
-                    <div class="col-12">
-                        <div class="card mb-2 p-4 p-sm-5">
-                            <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
-                                <div class="title title-color purple">Resumo da Viagem</div>
+
+
 
                             </div>
-                            <div class="card-body p-0">
-                                <div class="stock-list row gx-4 flex-nowrap">
-                                    <div class="stock-item stock-green col p-6 mx-2 flex-shrink-0 flex-grow-1">
-                                        <div class="p-3   d-inline-block mb-4 ">
+                        </div>
+                    </div>
+                    <!-- / Informação do Motorista -->
 
-                                            <img src="img/icon1.png" class="icon-info  ">
+                    <!--  Resumo da Viagem -->
+                    <div class="row g-0">
+                        <div class="col-12">
+                            <div class="card mb-2 p-4 p-sm-5">
+                                <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
+                                    <div class="title title-color purple">Resumo da Viagem</div>
 
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="stock-details">
-                                                <div class="stock-caption caption d-flex align-items-center mb-1">
-                                                    KM Percorrido
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="stock-list row gx-4 flex-nowrap">
+                                        <div class="stock-item stock-green col p-6 mx-2 flex-shrink-0 flex-grow-1">
+                                            <div class="p-3   d-inline-block mb-4 ">
 
+                                                <img src="img/icon1.png" class="icon-info  ">
+
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="stock-details">
+                                                    <div class="stock-caption caption d-flex align-items-center mb-1">
+                                                        KM Percorrido
+
+                                                    </div>
+                                                    <div class="counter h3">880 KM</div>
+                                                    <div class="balance d-inline-flex align-items-center px-1 up"
+                                                        title="Core - Products dashboard">
+                                                        <svg class="icon icon-arrow-up me-1 d-block">
+                                                            <use xlink:href="#icon-arrow-up"></use>
+                                                        </svg>37.8%<span>
+                                                            <div class="caption ps-1 text-nowrap">essa semana
+                                                            </div>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="counter h3">880 KM</div>
-                                                <div class="balance d-inline-flex align-items-center px-1 up"
-                                                    title="Core - Products dashboard">
-                                                    <svg class="icon icon-arrow-up me-1 d-block">
-                                                        <use xlink:href="#icon-arrow-up"></use>
-                                                    </svg>37.8%<span>
-                                                        <div class="caption ps-1 text-nowrap">essa semana
-                                                        </div>
-                                                    </span>
+                                                <div class="stock-chart ms-auto">
+                                                    <div id="stock-customer"></div>
                                                 </div>
                                             </div>
-                                            <div class="stock-chart ms-auto">
-                                                <div id="stock-customer"></div>
+                                        </div>
+                                        <div class="stock-item stock-blue col p-6 mx-2 flex-shrink-0 flex-grow-1">
+                                            <div class=" p-3  d-inline-block mb-4">
+                                                <img src="img/icon2.png" class="icon-info">
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="stock-item stock-blue col p-6 mx-2 flex-shrink-0 flex-grow-1">
-                                        <div class=" p-3  d-inline-block mb-4">
-                                            <img src="img/icon2.png" class="icon-info">
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="stock-details">
-                                                <div class="stock-caption caption d-flex align-items-center mb-1">
-                                                    Duração da Viagem
+                                            <div class="d-flex">
+                                                <div class="stock-details">
+                                                    <div class="stock-caption caption d-flex align-items-center mb-1">
+                                                        Duração da Viagem
 
+                                                    </div>
+                                                    <div class="counter h3">11h</div>
+                                                    <div class="balance d-inline-flex align-items-center px-1 down"
+                                                        title="Core - Products dashboard">
+                                                        <svg class="icon icon-arrow-up me-1 d-block">
+                                                            <use xlink:href="#icon-arrow-up"></use>
+                                                        </svg>2.8%<span>
+                                                            <div class="caption ps-1 text-nowrap">essa semana
+                                                            </div>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="counter h3">11h</div>
-                                                <div class="balance d-inline-flex align-items-center px-1 down"
-                                                    title="Core - Products dashboard">
-                                                    <svg class="icon icon-arrow-up me-1 d-block">
-                                                        <use xlink:href="#icon-arrow-up"></use>
-                                                    </svg>2.8%<span>
-                                                        <div class="caption ps-1 text-nowrap">essa semana
-                                                        </div>
-                                                    </span>
+                                                <div class="stock-chart ms-auto">
+                                                    <div id="stock-earning"></div>
                                                 </div>
                                             </div>
-                                            <div class="stock-chart ms-auto">
-                                                <div id="stock-earning"></div>
+                                        </div>
+                                        <div class="stock-item stock-purple col p-6 mx-2 flex-shrink-0 flex-grow-1">
+                                            <div class=" p-3  d-inline-block mb-4">
+                                                <img src="img/icon3.png" class="icon-info">
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="stock-item stock-purple col p-6 mx-2 flex-shrink-0 flex-grow-1">
-                                        <div class=" p-3  d-inline-block mb-4">
-                                            <img src="img/icon3.png" class="icon-info">
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="stock-details">
-                                                <div class="stock-caption caption d-flex align-items-center mb-1">
-                                                    Paradas Realizadas
+                                            <div class="d-flex">
+                                                <div class="stock-details">
+                                                    <div class="stock-caption caption d-flex align-items-center mb-1">
+                                                        Paradas Realizadas
 
+                                                    </div>
+                                                    <div class="counter h2">3</div>
+                                                    <div class="balance d-inline-flex align-items-center px-1 up"
+                                                        title="Core - Products dashboard">
+                                                        <svg class="icon icon-arrow-up me-1 d-block">
+                                                            <use xlink:href="#icon-arrow-up"></use>
+                                                        </svg>4.7%<span>
+                                                            <div class="caption ps-1 text-nowrap">essa semana
+                                                            </div>
+                                                        </span>
+                                                    </div>
                                                 </div>
-                                                <div class="counter h2">3</div>
-                                                <div class="balance d-inline-flex align-items-center px-1 up"
-                                                    title="Core - Products dashboard">
-                                                    <svg class="icon icon-arrow-up me-1 d-block">
-                                                        <use xlink:href="#icon-arrow-up"></use>
-                                                    </svg>4.7%<span>
-                                                        <div class="caption ps-1 text-nowrap">essa semana
-                                                        </div>
-                                                    </span>
+                                                <div class="stock-chart ms-auto">
+                                                    <div id="stock-payouts"></div>
                                                 </div>
-                                            </div>
-                                            <div class="stock-chart ms-auto">
-                                                <div id="stock-payouts"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -260,134 +293,135 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- / Resumo da Viagem -->
+                    <!-- / Resumo da Viagem -->
 
 
-                <!-- Controle de Jornada -->
-                <div class="row g-0">
-                    <div class="col-lg-8 col-12 pe-lg-2">
-                        <div class="card mb-2 p-4 p-sm-5">
-                            <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
+                    <!-- Controle de Jornada -->
+                    <div class="row g-0">
+                        <div class="col-lg-8 col-12 pe-lg-2">
+                            <div class="card mb-2 p-4 p-sm-5">
+                                <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
 
 
-                                <div class="title title-color green">Controle de Jornada </div>
+                                    <div class="title title-color green">Controle de Jornada </div>
 
-
-                            </div>
-                            <div class="activity">
-                                <div class="  pb-5 g-0 d-none d-sm-flex">
-
-                                    <div class="container mt-5">
-                                        <div class="driver-status">
-                                            <strong class="tag-color green-activity-driver"> Motorista em
-                                                Atividade</strong> &nbsp &nbsp
-                                            <strong class="tag-color green-activity-driver"
-                                                style="color:#4B4B4C; font-weight: 10!important; "> Cod
-                                                veículo</strong>
-                                        </div>
-
-                                        <div class="table-responsive">
-                                            <table class="table ">
-                                                <thead class="">
-                                                    <tr>
-                                                        <th scope="col">Data</th>
-                                                        <th scope="col">Tipo de Parada</th>
-                                                        <th scope="col">Início</th>
-                                                        <th scope="col">Fim</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td> <span class="tag-color blue">Início do Trabalho</span>
-                                                        </td>
-                                                        <td>07:02</td>
-                                                        <td> --</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color orange">Refeição</span></td>
-                                                        <td>12:06</td>
-                                                        <td>13:04</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color yellow">Reabastecimento</span></td>
-                                                        <td>16:30</td>
-                                                        <td>16:45</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color orange">Refeição</span></td>
-                                                        <td>18:45</td>
-                                                        <td>19:10</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color purble">Descanso</span></td>
-                                                        <td>19:15</td>
-                                                        <td>20:00</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color deep-blue">Carga/Descarga</span>
-                                                        </td>
-                                                        <td>21:30</td>
-                                                        <td>21:54</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>11 Out</td>
-                                                        <td><span class="tag-color deep-green">Fim do Trabalho</span>
-                                                        </td>
-                                                        <td>--</td>
-                                                        <td>22:08</td>
-                                                    </tr>
-                                                    <!-- Adicione mais linhas conforme necessário -->
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
 
                                 </div>
-                                <div class="  row pb-5 pt-0 pt-sm-6 g-0 d-block d-sm-flex">
-                                    <div class="col py-2 p-sm-0 fs-8 text-shades-1">
+                                <div class="activity">
+                                    <div class="  pb-5 g-0 d-none d-sm-flex">
+
+                                        <div class="container mt-5">
+                                            <div class="driver-status">
+                                                <strong class="tag-color green-activity-driver"> Motorista em
+                                                    Atividade</strong> &nbsp &nbsp
+                                                <strong class="tag-color green-activity-driver"
+                                                    style="color:#4B4B4C; font-weight: 100!important; "> Cod
+                                                    veículo</strong>
+                                            </div>
+
+                                            <div class="table-responsive">
+                                                <table class="table ">
+                                                    <thead class="">
+                                                        <tr>
+                                                            <th scope="col">Data</th>
+                                                            <th scope="col">Tipo de Parada</th>
+                                                            <th scope="col">Início</th>
+                                                            <th scope="col">Fim</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td> <span class="tag-color blue">Início do Trabalho</span>
+                                                            </td>
+                                                            <td>07:02</td>
+                                                            <td> --</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color orange">Refeição</span></td>
+                                                            <td>12:06</td>
+                                                            <td>13:04</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color yellow">Reabastecimento</span>
+                                                            </td>
+                                                            <td>16:30</td>
+                                                            <td>16:45</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color orange">Refeição</span></td>
+                                                            <td>18:45</td>
+                                                            <td>19:10</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color purble">Descanso</span></td>
+                                                            <td>19:15</td>
+                                                            <td>20:00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color deep-blue">Carga/Descarga</span>
+                                                            </td>
+                                                            <td>21:30</td>
+                                                            <td>21:54</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>11 Out</td>
+                                                            <td><span class="tag-color deep-green">Fim do
+                                                                    Trabalho</span>
+                                                            </td>
+                                                            <td>--</td>
+                                                            <td>22:08</td>
+                                                        </tr>
+                                                        <!-- Adicione mais linhas conforme necessário -->
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
 
                                     </div>
-                                    <div class="col py-2 p-sm-0 d-flex align-items-center">
+                                    <div class="  row pb-5 pt-0 pt-sm-6 g-0 d-block d-sm-flex">
+                                        <div class="col py-2 p-sm-0 fs-8 text-shades-1">
 
+                                        </div>
+                                        <div class="col py-2 p-sm-0 d-flex align-items-center">
+
+
+
+                                        </div>
 
 
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- /Controle de Jornada -->
+
+                        <!-- Mapa -->
+                        <div class="col-lg-4 col-12 ">
+                            <div class="card " style="padding: 10px;">
+
+                                <!-- Mapa -->
+                                <div id="map"></div>
 
 
+
+                                <div class="chart product-views-small">
+                                    <div id="product-views-small"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- /Controle de Jornada -->
-
-                    <!-- Mapa -->
-                    <div class="col-lg-4 col-12 ">
-                        <div class="card " style="padding: 10px;">
-
-                            <!-- Mapa -->
-                            <div id="map"></div>
-
-
-
-                            <div class="chart product-views-small">
-                                <div id="product-views-small"></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
             </div>
-        </div>
 
-        <!-- / Mapa -->
+            <!-- / Mapa -->
 
     </main>
 

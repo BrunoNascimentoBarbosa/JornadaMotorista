@@ -122,3 +122,35 @@ body{
     margin-top: -20px;
     margin-bottom: 20px;
 }
+
+.elemento-medium {
+    font-family: 'Inter', sans-serif;  
+    font-weight: 500; 
+    font-weight: 700;
+}
+
+.driver-info-name {
+    font-size: 15px;
+    color: #1A1D1F;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;    
+}
+.driver-info {
+    color: #6F767E;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;    
+}
+
+.driver-status-activity {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 920px) {
+    .elemento-medium, 
+     
+    .driver-info, 
+    .driver-status-activity {
+        display: none; /* Oculta os elementos no mobile */
+    }
+}
