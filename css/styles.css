@@ -162,3 +162,53 @@ body{
         display: none; /* Oculta os elementos no mobile */
     }
 }
+
+/* Controle por rota */
+
+.timeline {
+    position: relative;
+    margin: 20px 0;
+    max-height: 300px; 
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    margin-left: 20px;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 9px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #e9ecef;
+    transform: translateX(-50%);
+}
+.timeline-item {
+
+    position: relative;
+    margin-bottom: 20px;
+}
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+.timeline-circle {
+    position: absolute;
+    left: 9px;
+    width: 20px;
+    height: 20px;
+    background-color: #E5E7EB;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+}
+ 
+.timeline-content {
+    padding-left: 30px;
+    padding-top: 3px;
+    position: relative;
+}
+.timeline-content h5 {
+    margin: 0;
+}
+.timeline-content p {
+    margin: 5px 0;
+}
