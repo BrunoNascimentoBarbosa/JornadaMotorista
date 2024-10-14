@@ -13,16 +13,12 @@
     <!-- Maps leaflet  CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-
-
-
-
 </head>
 
 <body>
 
-    <header class="d-flex align-items-center px-xl-7 px-5 py-5">
-        <div class="search-header me-auto">
+    <header class="d-flex align-items-center px-xl-7 px-5 py-5 ">
+        <div class=" search-header me-auto">
             <div class="search-action">
                 <button class="btn-action">
                     <svg class="icon icon-arrow-left">
@@ -54,7 +50,7 @@
 
         </div>
         <div class="navbar"><a class="btn btn-primary nav-item create" href="#" role="button"
-                style="background-color: #FF4F7B;">
+                style="background-color: #FF4F7B; z-index: 1000; ">
                 <svg class="icon icon-plus me-2">
                     <use xlink:href="#icon-plus"></use>
                 </svg><span>Novo Motorista</span></a>
@@ -309,26 +305,26 @@
 
 
                                 </div>
-                                <div class="activity">
+                                <div class="activity" style="height: 625px;">
                                     <div class="  pb-5 g-0 d-none d-sm-flex">
 
                                         <div class="container mt-5">
                                             <div class="driver-status">
                                                 <strong class="tag-color green-activity-driver"> Motorista em
-                                                    Atividade</strong> &nbsp &nbsp
+                                                    Rota</strong> &nbsp &nbsp
                                                 <strong class="tag-color green-activity-driver"
                                                     style="color:#4B4B4C; font-weight: 100!important; "> Cod
                                                     veículo</strong>
                                             </div>
 
                                             <div class="table-responsive">
-                                                <table class="table ">
-                                                    <thead class="">
+                                                <table class="table custom-table">
+                                                    <thead>
                                                         <tr>
-                                                            <th scope="col">Data</th>
-                                                            <th scope="col">Tipo de Parada</th>
-                                                            <th scope="col">Início</th>
-                                                            <th scope="col">Fim</th>
+                                                            <th>Data</th>
+                                                            <th>Tipo de Parada</th>
+                                                            <th>Início</th>
+                                                            <th>Fim</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
@@ -379,7 +375,6 @@
                                                             <td>--</td>
                                                             <td>22:08</td>
                                                         </tr>
-                                                        <!-- Adicione mais linhas conforme necessário -->
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -412,10 +407,7 @@
                                 <div id="map"></div>
 
 
-
-
-
-                                <div class="chart product-views-small " style="height: 560px;">
+                                <div class="chart product-views-small " style="height: 400px;">
                                     <!-- Controle por rota -->
 
                                     <div class="container">
@@ -457,21 +449,13 @@
                                                         <p style="font-size: 12px;">Posta Rodovia 567 Petrobras - SP</p>
                                                         <p style="font-size: 12px;">11 Out - 16:45</p>
                                                     </div>
-
                                                 </div>
-
                                             </div>
-
                                         </div>
-
                                     </div>
-
                                 </div>
 
-                                <!-- Controle por rota -->
-
-
-
+                                <!--/ Controle por rota -->
 
 
 

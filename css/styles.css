@@ -73,13 +73,34 @@ body{
 }
 
 
+
+
 .table tr {
-    height: 80px; 
+    height: 70px; 
   }
   .table td, .table th {
     text-align: left; 
     vertical-align: middle;  
+
   }
+
+/* Tabela */
+.custom-table th, .custom-table td {
+    border: none;  
+}
+
+.custom-table th {
+   
+}
+
+.custom-table {
+    border-collapse: collapse;  
+} 
+
+.custom-table td {
+     border-top: 2px solid #EFEFEF!important;
+}
+
 
 .tag-color {   
     border-radius: 4px;  
@@ -130,9 +151,7 @@ body{
 }
 
 .img-driver {
-    margin-top: -10px; 
-  
-      
+    margin-top: -10px;     
     width: 48px;"
 
 }
