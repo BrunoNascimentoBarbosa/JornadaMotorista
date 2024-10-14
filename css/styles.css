@@ -3,15 +3,16 @@ body{
  
 }
 
-
+.user {
+    width: 50px;
+    border-radius: 30px;
+} 
 
 .box {
     width: 1020px;
     height: 100%px;
     border-radius: 8px;
     padding: 10px;
-    
-
     background-color: #FFFFFF;
 }
 
@@ -31,8 +32,6 @@ body{
     height: 224px;
     margin: 5px;
     border-radius: 12px;
-    
-
     background-color: aquamarine;
 
 }
@@ -42,8 +41,6 @@ body{
     height: 282px;
     margin: 5px;
     border-radius: 12px;
-     
-
     background-color: aquamarine;
 }
 
@@ -52,8 +49,6 @@ body{
     height: 282px;
     margin: 5px;
     border-radius: 12px;
-     
-
     background-color: aquamarine;
 
 }
@@ -75,4 +70,55 @@ body{
     border-radius: 10px;
     color: black;
     background-color: #ffffff;
+}
+
+
+.table tr {
+    height: 80px; 
+  }
+  .table td, .table th {
+    text-align: left; 
+    vertical-align: middle;  
+  }
+
+.tag-color {   
+    border-radius: 4px;  
+    padding: 5px;
+    color: #4B4B4C!important;  
+
+}
+
+.blue { 
+    background-color: #E4EFFF!important; 
+
+}
+
+.orange { 
+    background-color: #FFD8B1!important; 
+
+}
+
+.yellow { 
+    background-color: #FCF96B!important; 
+}
+
+.purble { 
+    background-color: #DCB1FF!important; 
+}
+
+.deep-blue { 
+    background-color: #6F8DEA!important; 
+}
+
+.deep-green { 
+    background-color: #D0FFB1!important; 
+}
+
+.green-activity-driver { 
+    background-color: #EAFAE4!important; 
+}
+
+.driver-status {
+    margin-top: -20px;
+    margin-bottom: 20px;
 }

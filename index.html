@@ -81,6 +81,7 @@
                 </button>
 
             </div>
+
             <div class="nav-item notification-item toggle-item">
                 <button class="toggle-head nav-link active">
                     <svg class="icon icon-double-notification">
@@ -90,6 +91,10 @@
                 </button>
 
             </div>
+            <div class="user d-flex align-items-center">
+                <div><img src="img/user.png" class="user" alt=""></div>
+
+            </div>
 
     </header>
     <aside class="sidebar d-flex flex-column position-fixed flex-nowrap p-5">
@@ -97,8 +102,8 @@
             <svg class="icon icon-close">
                 <use xlink:href="#icon-close"></use>
             </svg>
-        </button><a class="logo flex-shrink-0" href="index.html"><img class="logo-dark" src="img/logo-dark.png"><img
-                class="logo-light" src="img/logo-light.png"></a>
+        </button>
+        <h5 class="logo flex-shrink-0" href="index.html">LOGO</h5>
         <div class="nav nav-pills flex-column mb-auto mt-8 menu">
             <div class="nav-item mb-2"><a class="nav-link d-flex align-items-center p-3" href="index.html">
                     <svg class="icon icon-double-home icon-item">
@@ -121,11 +126,18 @@
                 <div class="nav-item mb-2">
                     <div class="nav-link d-flex align-items-center p-3 collapsed collapsed"
                         data-bs-target="#sidebar-income-collapse" data-bs-toggle="collapse">
-                        <svg class="icon icon-double-pie-chart icon-item">
-                            <use class="fill" href="#icon-pie-chart-fill"></use>
-                            <use class="stroke" href="#icon-pie-chart-stroke"></use>
-                        </svg>Menu
-                        <svg class="icon icon-cheveron ms-auto arrow">
+
+                        <use class="fill" href="#icon-pie-chart-fill"></use>
+                        <!-- Icon truck -->
+                        <svg class="icon icon-double-pie-chart icon-item" width="23" height="20" viewBox="0 0 23 20"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.5 10.5V15.5C0.5 15.7652 0.605357 16.0196 0.792893 16.2071C0.98043 16.3946 1.23478 16.5 1.5 16.5H2.5C2.5 17.2956 2.81607 18.0587 3.37868 18.6213C3.94129 19.1839 4.70435 19.5 5.5 19.5C6.29565 19.5 7.05871 19.1839 7.62132 18.6213C8.18393 18.0587 8.5 17.2956 8.5 16.5H14.5C14.5 17.2956 14.8161 18.0587 15.3787 18.6213C15.9413 19.1839 16.7044 19.5 17.5 19.5C18.2956 19.5 19.0587 19.1839 19.6213 18.6213C20.1839 18.0587 20.5 17.2956 20.5 16.5H21.5C21.7652 16.5 22.0196 16.3946 22.2071 16.2071C22.3946 16.0196 22.5 15.7652 22.5 15.5V3.5C22.5 2.70435 22.1839 1.94129 21.6213 1.37868C21.0587 0.816071 20.2956 0.5 19.5 0.5H10.5C9.70435 0.5 8.94129 0.816071 8.37868 1.37868C7.81607 1.94129 7.5 2.70435 7.5 3.5V5.5H5.5C5.03426 5.5 4.57493 5.60844 4.15836 5.81672C3.74179 6.025 3.37944 6.32741 3.1 6.7L0.7 9.9C0.670751 9.94347 0.647224 9.99052 0.63 10.04L0.57 10.15C0.525866 10.2615 0.502155 10.3801 0.5 10.5ZM16.5 16.5C16.5 16.3022 16.5586 16.1089 16.6685 15.9444C16.7784 15.78 16.9346 15.6518 17.1173 15.5761C17.3 15.5004 17.5011 15.4806 17.6951 15.5192C17.8891 15.5578 18.0673 15.653 18.2071 15.7929C18.347 15.9327 18.4422 16.1109 18.4808 16.3049C18.5194 16.4989 18.4996 16.7 18.4239 16.8827C18.3482 17.0654 18.22 17.2216 18.0556 17.3315C17.8911 17.4414 17.6978 17.5 17.5 17.5C17.2348 17.5 16.9804 17.3946 16.7929 17.2071C16.6054 17.0196 16.5 16.7652 16.5 16.5ZM9.5 3.5C9.5 3.23478 9.60536 2.98043 9.79289 2.79289C9.98043 2.60536 10.2348 2.5 10.5 2.5H19.5C19.7652 2.5 20.0196 2.60536 20.2071 2.79289C20.3946 2.98043 20.5 3.23478 20.5 3.5V14.5H19.72C19.4388 14.1906 19.0961 13.9435 18.7138 13.7743C18.3315 13.6052 17.918 13.5178 17.5 13.5178C17.082 13.5178 16.6685 13.6052 16.2862 13.7743C15.9039 13.9435 15.5612 14.1906 15.28 14.5H9.5V3.5ZM7.5 9.5H3.5L4.7 7.9C4.79315 7.7758 4.91393 7.675 5.05279 7.60557C5.19164 7.53615 5.34475 7.5 5.5 7.5H7.5V9.5ZM4.5 16.5C4.5 16.3022 4.55865 16.1089 4.66853 15.9444C4.77841 15.78 4.93459 15.6518 5.11732 15.5761C5.30004 15.5004 5.50111 15.4806 5.69509 15.5192C5.88907 15.5578 6.06725 15.653 6.20711 15.7929C6.34696 15.9327 6.4422 16.1109 6.48079 16.3049C6.51937 16.4989 6.49957 16.7 6.42388 16.8827C6.34819 17.0654 6.22002 17.2216 6.05557 17.3315C5.89112 17.4414 5.69778 17.5 5.5 17.5C5.23478 17.5 4.98043 17.3946 4.79289 17.2071C4.60536 17.0196 4.5 16.7652 4.5 16.5ZM2.5 11.5H7.5V14.28C6.90983 13.7526 6.13513 13.4797 5.34469 13.5209C4.55425 13.5621 3.81212 13.914 3.28 14.5H2.5V11.5Z"
+                                fill="#6F767E" />
+                        </svg>
+
+                        </svg>Veículos
+                        <svg class="icon icon-truck ms-auto arrow">
                             <use xlink:href="#icon-cheveron"></use>
                         </svg>
                     </div>
@@ -259,46 +271,105 @@
                             <div class="card-head d-flex align-items-center justify-content-between mb-5 mb-sm-6">
 
 
-                                <div class="title title-color green">Controle de Jornada (Banner)</div>
+                                <div class="title title-color green">Controle de Jornada </div>
+
 
                             </div>
                             <div class="activity">
-                                <div class="border-bottom row pb-5 g-0 d-none d-sm-flex">
-                                    <div class="col caption">Data</div>
-                                    <div class="col caption">Tipo de parada</div>
-                                    <div class="col caption">Início</div>
-                                    <div class="col caption">Fim</div>
-                                    <div class="col caption">Localização</div>
+                                <div class="  pb-5 g-0 d-none d-sm-flex">
+
+                                    <div class="container mt-5">
+                                        <div class="driver-status">
+                                            <strong class="tag-color green-activity-driver"> Motorista em
+                                                Atividade</strong> &nbsp &nbsp
+                                            <strong class="tag-color green-activity-driver"
+                                                style="color:#4B4B4C; font-weight: 10!important; "> Cod
+                                                veículo</strong>
+                                        </div>
+
+                                        <div class="table-responsive">
+                                            <table class="table ">
+                                                <thead class="">
+                                                    <tr>
+                                                        <th scope="col">Data</th>
+                                                        <th scope="col">Tipo de Parada</th>
+                                                        <th scope="col">Início</th>
+                                                        <th scope="col">Fim</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td> <span class="tag-color blue">Início do Trabalho</span>
+                                                        </td>
+                                                        <td>07:02</td>
+                                                        <td> --</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color orange">Refeição</span></td>
+                                                        <td>12:06</td>
+                                                        <td>13:04</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color yellow">Reabastecimento</span></td>
+                                                        <td>16:30</td>
+                                                        <td>16:45</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color orange">Refeição</span></td>
+                                                        <td>18:45</td>
+                                                        <td>19:10</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color purble">Descanso</span></td>
+                                                        <td>19:15</td>
+                                                        <td>20:00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color deep-blue">Carga/Descarga</span>
+                                                        </td>
+                                                        <td>21:30</td>
+                                                        <td>21:54</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>11 Out</td>
+                                                        <td><span class="tag-color deep-green">Fim do Trabalho</span>
+                                                        </td>
+                                                        <td>--</td>
+                                                        <td>22:08</td>
+                                                    </tr>
+                                                    <!-- Adicione mais linhas conforme necessário -->
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
 
                                 </div>
-                                <div class="border-bottom row pb-5 pt-0 pt-sm-6 g-0 d-block d-sm-flex">
+                                <div class="  row pb-5 pt-0 pt-sm-6 g-0 d-block d-sm-flex">
                                     <div class="col py-2 p-sm-0 fs-8 text-shades-1">
-                                        <div class="d-inline-block d-sm-none caption w-25">Data</div>11 Out
-                                    </div>
-                                    <div class="col py-2 p-sm-0 d-flex align-items-center">
-                                        <div class="d-inline-block d-sm-none caption w-25">Tipo de parada
-                                        </div>
-                                        <div class="badge green me-1"> Início do trabalho </div>
 
                                     </div>
                                     <div class="col py-2 p-sm-0 d-flex align-items-center">
-                                        <div class="d-inline-block d-sm-none caption w-25">Início</div>
-                                        <div class="badge  me-1">07:02</div>
+
+
 
                                     </div>
-                                    <div class="col py-2 p-sm-0 d-flex align-items-center">
-                                        <div class="d-inline-block d-sm-none caption w-25">Fim</div>
-                                        <div class="badge me-1">21:45</div>
 
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <!-- /Controle de Jornada -->
 
                     <!-- Mapa -->
-                    <div class="col-lg-4 col-12">
+                    <div class="col-lg-4 col-12 ">
                         <div class="card " style="padding: 10px;">
 
                             <!-- Mapa -->
@@ -333,6 +404,12 @@
 
     <!-- icones -->
     <div style="display: none"><svg width="0" height="0">
+
+            <symbol id="icon-truck" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path
+                    d="M1 4a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1v1h10v-1h1a1 1 0 0 0 1-1v-6.5a2.5 2.5 0 0 0-2-2.45V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2.05A2.5 2.5 0 0 0 1 10.5V12h1.5a1.5 1.5 0 1 1 3 0H10a1.5 1.5 0 1 1 3 0H15v-2.5A2.5 2.5 0 0 0 12.5 7H10V5h1V4H1z" />
+            </symbol>
+
             <symbol id="icon-home-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
                 <path
                     d="M9.261 1.944l4 3.221c.467.376.739.942.739 1.539v5.814c0 1.095-.895 1.982-2 1.982h-1.333v-3.965c0-1.095-.895-1.982-2-1.982H7.333c-1.105 0-2 .888-2 1.982V14.5H4c-1.105 0-2-.888-2-1.982V6.704c0-.597.271-1.162.739-1.539l4-3.221c.735-.592 1.788-.592 2.522 0zm-.595 7.93c.368 0 .667.296.667.661V14.5H6.667v-3.965c0-.365.298-.661.667-.661z">
